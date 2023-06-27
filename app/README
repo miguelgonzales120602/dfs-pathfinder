@@ -1,0 +1,14 @@
+#README
+
+# How to use application:
+While app is opened:
+1. First tile clicked will be starting node
+2. Second tile clicked will be end node
+3. Succeeding tiles clicked will be barriers that cannot be traversed.
+  Can drag click for black tiles
+4. Once start and end nodes are determined, and desired maze is constructed, press 'SPACEBAR' to execute algorithm
+5. To repeat, you can press 'C'
+
+# Application Limitations:
+1. A large number of traversals can cause hardware issues (crashing), so it was decided that the size of the grid be set to 50 x 50, however this can be modified in the source code.
+2. When drag clicking, when going outside the window, an error occurs.
